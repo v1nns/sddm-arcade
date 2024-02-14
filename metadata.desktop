@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=Arcade
+Description=Yet another theme for SDDM
+Author=Vinicius Moura Longaray
+Copyright=(c) 2024, Vinicius Moura Longaray
+Email=vmouralongaray@gmail.com
+License=GPLv3
+Type=sddm-theme
+Version=0.1.0
+Website=https://github.com/v1nns/sddm-arcade
+Screenshot=preview.jpg
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=chili
+Theme-API=2.0
