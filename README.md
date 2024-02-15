@@ -1,23 +1,46 @@
- <h1 align="center">
+<h1 align="center">
   <br>
-  Arcade theme for SDDM
+  🕹️ Arcade theme for SDDM
   <br>
 </h1>
 
-![Screenshot of the theme](preview.jpg "Preview")
+<figure>
+  <img src="preview.jpg" alt="my alt text"/>
+  <p style='text-align: center;'><b><small>Login screenshot</small></b></p>
+</figure>
 
-TODO: add some text
+🚀 Dive into the ultimate gaming nostalgia with this electrifying login theme. Witness the glow
+of neon lights, reminiscent of classic arcades and immerse yourself in the vibrant world of
+pixelated wonders as your login screen transforms into a virtual arcade gaming room. 🔥
 
-### Dependencies
+### Dependencies 🎮
 
   * sddm
   * qt5
   * qt5-quickcontrols
   * qt5-graphicaleffects
+  * ttf-jetbrains-mono
 
-### Installing the theme
+### How to install it
 
-TODO: detail installation steps
+```bash
+# Clone this repo
+git clone https://github.com/v1nns/sddm-arcade /tmp/sddm-arcade
+
+# Move it to default SDDM path for themes
+sudo mv /tmp/sddm-arcade /usr/share/sddm/themes/
+```
+
+After these steps, you must change default theme inside the SDDM configuration file (default path is
+*/usr/lib/sddm/sddm.conf.d/default.conf*).
+
+```ini
+[Theme]
+# Current theme name
+Current=Arcade
+```
+
+For a detailed description about SDDM settings, check [this](https://wiki.archlinux.org/title/SDDM).
 
 ### Credits
 
