@@ -6,7 +6,7 @@
 
 <figure>
   <img src="preview.jpg" alt="my alt text"/>
-  <p style='text-align: center;'><b><small>Login screenshot</small></b></p>
+  <h5 align="center"><b>Login screenshot</b></h5>
 </figure>
 
 🚀 Dive into the ultimate gaming nostalgia with this electrifying login theme. Witness the glow
