@@ -5,7 +5,7 @@
 </h1>
 
 <figure>
-  <img src="preview.jpg" alt="my alt text"/>
+  <img src="preview.jpg" alt="Screenshot"/>
   <h5 align="center"><b>Login screenshot</b></h5>
 </figure>
 
@@ -25,10 +25,10 @@ pixelated wonders as your login screen transforms into a virtual arcade gaming r
 
 ```bash
 # Clone this repo
-git clone https://github.com/v1nns/sddm-arcade /tmp/sddm-arcade
+git clone https://github.com/v1nns/sddm-arcade /tmp/arcade
 
-# Move it to default SDDM path for themes
-sudo mv /tmp/sddm-arcade /usr/share/sddm/themes/
+# Move it to default themes path used by SDDM
+sudo mv /tmp/arcade /usr/share/sddm/themes/
 ```
 
 After these steps, you must change default theme inside the SDDM configuration file (default path is
@@ -37,7 +37,7 @@ After these steps, you must change default theme inside the SDDM configuration f
 ```ini
 [Theme]
 # Current theme name
-Current=Arcade
+Current=arcade
 ```
 
 For a detailed description about SDDM settings, check [this](https://wiki.archlinux.org/title/SDDM).
