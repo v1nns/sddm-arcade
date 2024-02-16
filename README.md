@@ -40,7 +40,17 @@ After these steps, you must change default theme inside the SDDM configuration f
 Current=arcade
 ```
 
-For a detailed description about SDDM settings, check [this](https://wiki.archlinux.org/title/SDDM).
+> [!WARNING]
+> If your login screen is rendering a larger font regardless of the font size inside the theme.conf (and you have HiDPI enabled), you may also include this setting in *default.conf*:
+>
+> ```ini
+> [X11]
+> ServerArguments=-nolisten tcp -dpi 96
+> ```
+> *P.S.: Change DPI to match a value that your monitor can handle.*
+
+> [!TIP]
+> For a detailed description about SDDM settings, check [this](https://wiki.archlinux.org/title/SDDM).
 
 ### Credits
 

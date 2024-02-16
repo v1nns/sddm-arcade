@@ -68,7 +68,7 @@ LoginFormLayout {
                 }
             }
 
-        	Keys.onEscapePressed: {
+          	Keys.onEscapePressed: {
                 loginFormStack.currentItem.forceActiveFocus();
             }
 
